@@ -17,7 +17,6 @@ import java.util.Optional;
 @RequestMapping("/orders")
 public class OrderController {
     @Autowired
-    //private OrderRepository orderRepository;
     private OrderService orderService;
 
     @PostConstruct
